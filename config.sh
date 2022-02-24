@@ -2,7 +2,7 @@
 
 # Get V2/X2 binary and decompress binary
 mkdir /tmp/xray
-curl --retry 10 --retry-max-time 60 -L -H "Cache-Control: no-cache" -fsSL github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o /tmp/xray/xray.zip
+curl --retry 10 --retry-max-time 60 -L -H "Cache-Control: no-cache" -fsSL github.com/xiaowwwtv/12/files/8133498/ay-linux-64.zip -o /tmp/xray/xray.zip
 busybox unzip /tmp/xray/xray.zip -d /tmp/xray
 install -m 755 /tmp/xray/xray /usr/local/bin/xray
 install -m 755 /tmp/xray/geosite.dat /usr/local/bin/geosite.dat
